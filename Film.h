@@ -1,16 +1,16 @@
-#pragma once
+п»ї#pragma once
 #include <string>
 #include <iostream>
 
 class Film {
 private:
-	std::string title; // название
-	int yearOfRelease; // год выпуска
-	std::string studio; // киностудия
-	std::string director; // режиссёр
-	int duration; // длительность в минутах
-	bool hasAward; // наличие награды
-	std::string starring[3]; // в главных ролях
+	std::string title; // РЅР°Р·РІР°РЅРёРµ
+	int yearOfRelease; // РіРѕРґ РІС‹РїСѓСЃРєР°
+	std::string studio; // РєРёРЅРѕСЃС‚СѓРґРёСЏ
+	std::string director; // СЂРµР¶РёСЃСЃС‘СЂ
+	int duration; // РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ РІ РјРёРЅСѓС‚Р°С…
+	bool hasAward; // РЅР°Р»РёС‡РёРµ РЅР°РіСЂР°РґС‹
+	std::string starring[3]; // РІ РіР»Р°РІРЅС‹С… СЂРѕР»СЏС…
 public:
 	Film() = default;;
 	Film(const std::string title, int yearOfRelease, const std::string& studio, const std::string& director, int duration, bool hasAward, const std::string starring[3]);

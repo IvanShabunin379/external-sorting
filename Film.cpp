@@ -1,4 +1,4 @@
-#include "Film.h"
+﻿#include "Film.h"
 
 Film::Film(const std::string title, int year, const std::string & studio, const std::string & director, int duration, bool hasAward, const std::string starring[3])
 	: title(title), yearOfRelease(year), studio(studio), director(director), duration(duration), hasAward(hasAward)
